@@ -8,9 +8,11 @@
   </head>
   <body>
     <header>
-      <p>Our Store Name is Genous maker. and i have made the changes locally</p>
+      {% sections "header-group" %}
     </header>
     <main>{{content_for_layout}}</main>
-    <footer>{{copy right 2026 Genious Maker}}</footer>
+    <footer>
+      {% sections "footer-group" %}
+    </footer>
   </body>
 </html>
